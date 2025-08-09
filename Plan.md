@@ -85,7 +85,7 @@ flowchart TD
   C5 -->|Approved| C6[Tasks Visible in Dashboard]
   C5 -->|Rejected| C3
   C6 --> C7[Do Task]
-  C7 --> C8[Submit Evidence (assets/links/notes)]
+  C7 --> C8["Submit Evidence (assets/links/notes)"]
   C8 -->|CRL ON| C9[Await Review → Fix if needed]
   C8 -->|CRL OFF| C10[Task Complete]
   C9 -->|Approved| C10
